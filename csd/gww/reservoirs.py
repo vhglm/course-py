@@ -1,5 +1,6 @@
 from gww.utils import create_url, send_request
 
+
 class ReservoirCollection:
     path: str = "reservoir"
 

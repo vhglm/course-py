@@ -1,1 +1,1 @@
-from client import Client
+from gww.client import Client

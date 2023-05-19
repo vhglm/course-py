@@ -7,6 +7,8 @@ from gww.client import Client
 def test_client():
     return Client()
 
+
+@pytest.mark.integration
 def test_get_reservoirs(test_client):
     reservoir_json = test_client.reservoirs.get(90554)
     # assert valid geojson
